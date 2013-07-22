@@ -1,0 +1,15 @@
+{
+  "name": "galaxy-streams",
+  "description": "simple streams for galaxy",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sage/galaxy-streams.git"
+  },
+  "engines": { "node": ">=0.11.4" },
+  "dependencies": {
+    "galaxy": ">= 0.1.3"
+    },
+  "author": "Bruno Jouhier",
+  "main": "index.js"
+}
