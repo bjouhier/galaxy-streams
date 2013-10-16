@@ -58,7 +58,6 @@ QUnit.module(module.id, {
 	setup: function() {},
 	teardown: function() {
 		if (doStop) {
-			//syracuse.server.close();
 			setTimeout(function() {
 				process.kill(process.pid);
 			}, 0)
